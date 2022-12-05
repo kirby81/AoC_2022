@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pytest = "*"
 pytest-watch = "*"
+more-itertools = "*"
 
 [dev-packages]
 black = "*"
