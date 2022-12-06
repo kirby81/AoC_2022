@@ -39,10 +39,12 @@ def sum_group_badges_priorities(rucksacks: List[str]) -> int:
 
 
 def test_part_1():
+    """What is the sum of the priorities of common items."""
     assert sum_common_items_priorities(EXEMPLE.splitlines()) == 157
 
 
 def test_part_2():
+    """What is the sum of the priorities of group's badges."""
     assert sum_group_badges_priorities(EXEMPLE.splitlines()) == 70
 
 
@@ -51,4 +53,4 @@ if __name__ == "__main__":
     with open("./day_3.txt") as f:
         lines = [line.strip() for line in f.readlines()]
         print(f"[Part 1] Sum of the priorities of common items: {sum_common_items_priorities(lines)}")
-        print(f"[Part 2] Sum of groups's badges priorities: {sum_group_badges_priorities(lines)}")
+        print(f"[Part 2] Sum of group's badges priorities: {sum_group_badges_priorities(lines)}")

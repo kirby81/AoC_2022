@@ -12,6 +12,6 @@
 ## Run a particular day:
 
 - Simple execution: `python day_X.py`
-- Development mode: `ptw day_X.py --onpass="python day_X.py`
+- Development mode: `ptw day_X.py --onpass="python day_X.py"`
 
 Where `X` is the day you want to run.
